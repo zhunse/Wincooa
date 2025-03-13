@@ -13,31 +13,31 @@ import {
 
 const members = [
   {
-    avatar: '/image/avatar/Mr. Bizarre.jpg',
+    avatar: '/Wincooa/image/avatar/Mr. Bizarre.jpg',
     name: 'Mr. Bizarre',
     title: '管理员',
     links: [
       {
         icon: {
-          svg: '<img src="/icon/me.svg" width="55%" color="#808080">'
+          svg: '<img src="/Wincooa/Wincooa/icon/me.svg" width="55%" color="#808080">'
         },
         link: "https://zhuns.top/",
       },
       {
         icon: {
-        svg: '<img src="/icon/ks.svg" width="55%" color="#808080">'
+        svg: '<img src="/Wincooa/icon/ks.svg" width="55%" color="#808080">'
         },
         link: 'https://v.kuaishou.com/rpfhY6' 
       },
       {
         icon: {
-          svg: '<img src="/icon/wxs.svg" width="70%" color="#808080">'
+          svg: '<img src="/Wincooa/icon/wxs.svg" width="70%" color="#808080">'
         },
         link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://www.cooa.top/",
       },
       {
         icon: {
-          svg: '<img src="/icon/qq.svg" width="70%" color="#808080">'
+          svg: '<img src="/Wincooa/icon/qq.svg" width="70%" color="#808080">'
         },
         link: "https://qm.qq.com/q/fQdytRLNK2",
       },
@@ -49,13 +49,13 @@ const members = [
   },
 
   {
-    avatar: '/image/avatar/user.png',
+    avatar: '/Wincooa/image/avatar/user.png',
     name: 'User',
     title: '待定',
     links: [
       {
         icon: {
-        svg: '<img src="/icon/wen.svg" width="55%" color="#808080">'
+        svg: '<img src="/Wincooa/icon/wen.svg" width="55%" color="#808080">'
       },
       link: '#' 
       }

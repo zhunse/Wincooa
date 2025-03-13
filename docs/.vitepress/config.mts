@@ -116,11 +116,11 @@ export default defineConfig({
     sidebar,
     footer: {
       message: `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
-        <img src="/img/icp.png" alt="ICP备案号">陕ICP备2023007133号-2
+        <img src="./img/icp.png" alt="ICP备案号">陕ICP备2023007133号-2
     </a>
       </br>
     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51011502000812" target="_blank" rel="noreferrer">
-        <img src="/img/anei.png" alt="川公网安备">川公网安备51011502000812号
+        <img src="./img/anei.png" alt="川公网安备">川公网安备51011502000812号
     </a>`,
       copyright: `COPYRIGHT © 2024-${new Date().getFullYear()} & <a href="https://zhuns.top/">进函科技社</a>`
     },
@@ -128,13 +128,13 @@ export default defineConfig({
     socialLinks: [
       {
         icon: {
-          svg: '<img src="/icon/ks.svg" width="55%" color="#808080">'
+          svg: '<img src="/Wincooa/icon/ks.svg" width="55%" color="#808080">'
         },
         link: "https://v.kuaishou.com/rpfhY6",
       },
       {
         icon: {
-          svg: '<img src="/icon/wxs.svg" width="65%" color="#808080">'
+          svg: '<img src="/Wincooa/icon/wxs.svg" width="65%" color="#808080">'
         },
         link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://www.cooa.top/",
       }
