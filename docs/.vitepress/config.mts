@@ -6,7 +6,7 @@ import sidebar from './config/sidebar'
 export default defineConfig({
   title: "Wincooa",
   description: "电脑的优化指南",
-  base: '/Wincooa/',
+  base: '/',
   lang: 'zh-Hans',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -128,13 +128,13 @@ export default defineConfig({
     socialLinks: [
       {
         icon: {
-          svg: '<img src="/Wincooa/icon/ks.svg" width="55%" color="#808080">'
+          svg: '<img src="/icon/ks.svg" width="55%" color="#808080">'
         },
         link: "https://v.kuaishou.com/rpfhY6",
       },
       {
         icon: {
-          svg: '<img src="/Wincooa/icon/wxs.svg" width="65%" color="#808080">'
+          svg: '<img src="/icon/wxs.svg" width="65%" color="#808080">'
         },
         link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://www.cooa.top/",
       }
