@@ -6,7 +6,7 @@ import sidebar from './config/sidebar'
 export default defineConfig({
   title: "Wincooa",
   description: "电脑的优化指南",
-  base: '/',
+  base: '/Wincooa',
   lang: 'zh-Hans',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
