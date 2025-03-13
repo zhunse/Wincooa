@@ -19,7 +19,7 @@ const members = [
     links: [
       {
         icon: {
-          svg: '<img src="Wincooa//icon/me.svg" width="55%" color="#808080">'
+          svg: '<img src="/icon/me.svg" width="55%" color="#808080">'
         },
         link: "https://zhuns.top/",
       },
