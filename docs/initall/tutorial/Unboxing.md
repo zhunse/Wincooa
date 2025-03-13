@@ -21,14 +21,14 @@ title: 开箱验机
 
 ## 4. 跳过联网激活
 首次开机时，尽量不要联网激活系统。联网后系统会自动激活，**激活后非质量问题无法退货。** 当电脑开机后跟着向导一步一步操作，终于提示需要你连接网络，这时候千万不要连接任何网络，
-![](/Wincooa/image/Unboxing/noawifi.png)
+![](/image/Unboxing/noawifi.png)
 我们只需要按下**Shift+F10 或者 Fn+Shift+F10**打开命令提示符输入**OOBE\BYPASSNRO**（大小写不影响操作）
 ```
 OOBE\BYPASSNRO
 ```
-![](/Wincooa/image/Unboxing/cmdwifi.png)
+![](/image/Unboxing/cmdwifi.png)
 系统就会自动重新启动，重新启动后就出现**我没有Internet连接**的选项，
-![](/Wincooa/image/Unboxing/nowifi.png)
+![](/image/Unboxing/nowifi.png)
 点击后让你输入用户名，这里需要注意**用户名请不要输入中文，输入中文后面安装软件可能会出现报错的提示。**
 ## 5. 硬件配置检查
 > 配置核对：使用工具（如图吧工具箱或鲁大师）检查电脑的硬件配置，包括CPU、内存、硬盘等，确保与商家承诺的配置一致。
