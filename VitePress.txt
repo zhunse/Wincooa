@@ -18,7 +18,7 @@ commit命令
 git commit -m “注释”
 
 push命令
-git push -u origin master
+git push -u origin main
 
 
 
