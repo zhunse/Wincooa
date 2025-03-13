@@ -1,0 +1,24 @@
+启动
+npm run docs:dev
+
+生成静态文件
+npm run docs:build
+
+运行静态文件
+npm run docs:preview
+
+安装 vitepress-plugin-tabs
+npm i -D vitepress-plugin-tabs
+
+
+拷贝文件
+git add .
+
+commit命令
+git commit -m “注释”
+
+push命令
+git push -u origin master
+
+
+

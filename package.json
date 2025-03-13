@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@iconify/vue": "^4.1.2",
+    "canvas-confetti": "^1.9.3",
+    "vitepress": "^1.3.4",
+    "vitepress-plugin-tabs": "^0.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@egjs/vue3-view360": "^4.0.0-beta.7",
+    "markdown-it-custom-attrs": "^1.0.2",
+    "vitepress-plugin-announcement": "^0.1.4",
+    "vue": "^3.5.13"
+  }
+}
