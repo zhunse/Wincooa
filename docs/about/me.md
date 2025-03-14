@@ -33,7 +33,7 @@ const members = [
         icon: {
           svg: '<img src="/icon/wxs.svg" width="70%" color="#808080">'
         },
-        link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://www.cooa.top/",
+        link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://win.cooa.top/",
       },
       {
         icon: {
