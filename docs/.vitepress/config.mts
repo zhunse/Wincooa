@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+import timeline from "vitepress-markdown-timeline"; 
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import sidebar from './config/sidebar'
 
@@ -22,9 +23,10 @@ export default defineConfig({
     config: (md) => {
         // use more markdown-it plugins!
         md.use(mdItCustomAttrs, 'image', {
-            'data-fancybox': "gallery"
-        })
-        }
+            'data-fancybox': "gallery",
+        }),
+        md.use(timeline);
+        },
     },
   // https://www.npmjs.com/package/vitepress-plugin-announcement
   // vite: {

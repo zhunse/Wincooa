@@ -1,7 +1,6 @@
 ---
 title: 关于团队
 aside: false
-
 ---
 
 <script setup>

@@ -5,6 +5,7 @@ import { Icon } from '@iconify/vue'
 import DefaultTheme from 'vitepress/theme'
 import Linkcard from './components/Linkcard.vue'
 import './style.css'
+import "vitepress-markdown-timeline/dist/theme/index.css";
 // import './style/index.css'
 
 export default {

@@ -6,6 +6,7 @@ export default [
       items: [
         { text: '关于本站', link: '/about/Site' },
         { text: '关于团队', link: '/about/me' },
+        { text: '更新日志', link: '/about/log'},
       ],
     },
     {
