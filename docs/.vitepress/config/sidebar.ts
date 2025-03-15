@@ -14,6 +14,7 @@ export default [
       items: [
         { text: '选配电脑', link: '/initall/tutorial/Matching' },
         { text: '开箱验机', link: '/initall/tutorial/Unboxing' },
+        { text: '新电脑必做的设置', link: '/initall/tutorial/Required' },
         { text: '软件推荐', link: '/initall/tutorial/Software' },
         { text: '未完待续', link: '/initall/await' },
         // {

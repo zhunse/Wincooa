@@ -231,3 +231,6 @@ p.copyright a {
   margin-bottom: 50px !important;
 }
 
+strong {
+  color: var(--vp-c-brand-1) !important;
+}
