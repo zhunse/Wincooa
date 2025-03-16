@@ -27,7 +27,7 @@ title: 新电脑必做的设置
 在分配磁盘的时候一定要先知道自己磁盘的总容量 至少要给C盘预留下100GB左右的容量 不然后面C盘容量不够用 会导致系统出现 蓝屏 死机 运行卡顿 等情况
 :::
 
-<Linkcard url="https://blog.zhuns.top/fp/index.html" title="磁盘分盘计算器" description="自己做了一个简单的磁盘分盘计算器 比如说你想分配 256GB 就直接输入 256 复制结果就行" logo="/image/App/jsq.png"/>
+<Linkcard url="https://blog.zhuns.top/fp/index.html" title="磁盘分盘计算器(点击打开)" description="自己做了一个简单的磁盘分盘计算器 比如说你想分配 256GB 就直接输入 256 复制结果就行" logo="/image/App/jsq.png"/>
 
 ::: details 点击查看详细步骤
 第一步，在桌面上 右击 此电脑 显示更多选项
@@ -76,4 +76,4 @@ title: 新电脑必做的设置
 ![](/image/Required/z05.png)
 :::
 
-# 未完待续……
+## 未完待续……
