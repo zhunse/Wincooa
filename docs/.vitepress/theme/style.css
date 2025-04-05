@@ -170,6 +170,8 @@ p.copyright a {
 
 .dark {
   --vp-c-indigo-1: #6b68ff;
+  --vp-c-bg: #121212 !important;
+  --vp-c-bg-alt: #131313 !important;
 }
 
 
