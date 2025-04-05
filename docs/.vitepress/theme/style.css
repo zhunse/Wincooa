@@ -170,10 +170,19 @@ p.copyright a {
 
 .dark {
   --vp-c-indigo-1: #6b68ff;
-  --vp-c-bg: #121212 !important;
-  --vp-c-bg-alt: #131313 !important;
+  --vp-c-bg: #181818 !important;
+  --vp-c-bg-alt: #171717 !important;
+  --vp-c-bg-soft: #1d1d1d;
 }
 
+.vp-doc [class*='language-'] pre{
+  background: #80808025 !important;
+}
+
+p img{
+  border-radius: 8px;
+  margin: 5px 0px 5px 0px;
+}
 
 .fa-solid,
 .fa-regular,

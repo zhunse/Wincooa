@@ -28,6 +28,12 @@ export default [
       ],
     },
     {
+      text: '疑难杂症',
+      items: [
+        { text: '待开发区', link: '/initall/Difficult/go' },
+      ],
+    },
+    {
       text: '更多玩法',
       items: [
         { text: '制作PE系统', link: '/initall/more/pe' },
