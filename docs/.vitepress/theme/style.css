@@ -245,3 +245,9 @@ p img{
 strong {
   color: var(--vp-c-brand-1) !important;
 }
+.gang{
+  color: #808080 !important;
+  cursor: not-allowed; 
+  text-decoration: line-through;
+  text-decoration-color: var(--vp-c-brand-1)
+}

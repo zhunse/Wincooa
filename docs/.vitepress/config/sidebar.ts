@@ -1,4 +1,5 @@
 // .vitepress/config/sidebar.ts
+const disabledLinks = ['/initall/more/folder']; // 要禁用的链接列表
 
 export default [
     {
@@ -36,7 +37,11 @@ export default [
     {
       text: '更多玩法',
       items: [
-        { text: '制作PE系统', link: '/initall/more/pe' },
+        { text: '制作PE系统', link: '/initall/more/pe', },
+        { text: '<span class="gang" title="即将上线">重装系统</span>', link: '#' },
+        // { text: '重装系统', link: '/initall/more/Reload' },
+        { text: '<span class="gang" title="即将上线">文件资源管理器的玩法</span>', link: '#', },
+        // { text: '文件资源管理器的玩法', link: '/initall/more/folder', },
       ],
     },
   ];

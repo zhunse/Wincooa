@@ -17,9 +17,31 @@ aside: false
 
 ## 网站建设
 
-**Wincooa 名称的含义**: “Win” 代表 Windows，而 “cooa” 并没有特殊含义，只是我个人偏好简洁的字母组合，觉得没有“尾巴”的字母看起来更整洁😊。
+**Wincooa 名称的含义**: “Win” 代表 Windows，而 “cooa” 并没有特殊含义，只是我个人偏好简洁的字母组合，觉得没有“**尾巴**”的字母看起来更整洁😊。
 
-> **本站搭建服务**: 阿里云云服务器ECS - 宝塔面板 - VitePress
+::: details 在我心目中 什么叫：**没有“尾巴”的字母**
+我是一个强迫症患者，在我心目中感觉并没有26个英文字母，因为在小写英文中他们的高低不一致，26个英文字母分别为：
+**a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z**用文字的基线做标准的话其中上升部字母: **b, d, f, h, k, l**下降部字母: **g, j, p, q, y**总感觉是一种 **乱糟糟的** ，而其余高度一致的分别为**a, c, e, m, n, o, r, s, t, u, v, w, x, z**无论大小写看着感觉都很美观，所以我的域名就采用了**cooa.top**
+
+<span style="display:block;text-align:center;color:orangered;">(呜呜呜，该死的强迫症！纯属个人观念，敬请谅解！)</span>
+
+![](/image/about/zimu.jpg)
+
+:::
+
+> **本站搭建服务商**:
+
+* 新方案 GitHub Actions - VitePress
+* 旧方案 阿里云云服务器ECS - 宝塔面板 - VitePress
+
+## 友情链接
+<Linkcard url="https://www.aliyun.com/" title="阿里云云服务器ECS" description="提供可靠的服务器解决方案，确保您的网站和应用始终稳定运行，助您轻松应对各种流量需求。" logo="/image/about/al.png"/>
+
+<Linkcard url="https://www.bt.cn/new/index.html" title="宝塔面板" description="通过直观的界面和强大的功能，简化服务器管理流程，提升运维效率，让服务器管理变得轻松便捷。" logo="/image/about/bt.png"/>
+
+<Linkcard url="https://vitepress.dev/zh/" title="VitePress" description="大专注于内容创作，提供简洁高效的网站构建方式，帮助您快速部署个人博客、项目展示或企业官网。" logo="/image/about/vp.png"/>
+
+<Linkcard url="https://github.com/" title="GitHub Actions" description="通过自定义工作流程，实现代码的自动构建、测试、部署等任务，提高开发效率。" logo="/image/about/gt.png"/>
 
 ## 远程协助
 
