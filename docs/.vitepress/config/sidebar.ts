@@ -1,5 +1,4 @@
 // .vitepress/config/sidebar.ts
-const disabledLinks = ['/initall/more/folder']; // 要禁用的链接列表
 
 export default [
     {

@@ -75,3 +75,4 @@ const members = [
   </VPTeamPageTitle>
   <VPTeamMembers :members="members" />
 </VPTeamPage>
+

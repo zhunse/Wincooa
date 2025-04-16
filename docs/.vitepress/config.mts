@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
-import timeline from "vitepress-markdown-timeline"; 
+import timeline from "vitepress-markdown-timeline";
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import sidebar from './config/sidebar'
+
 
 export default defineConfig({
   title: "Wincooa",
@@ -15,65 +16,84 @@ export default defineConfig({
     [
       "link",
       { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
-  ],
-  ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
+    ],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
 
   ],
-  markdown:{
+  markdown: {
     config: (md) => {
-        // use more markdown-it plugins!
-        md.use(mdItCustomAttrs, 'image', {
-            'data-fancybox': "gallery",
-        }),
+      // use more markdown-it plugins!
+      md.use(mdItCustomAttrs, 'image', {
+        'data-fancybox': "gallery",
+      }),
         md.use(timeline);
-        },
     },
+  },
+
+
   // https://www.npmjs.com/package/vitepress-plugin-announcement
-  // vite: {
-  //   plugins: [
-  //     AnnouncementPlugin({
-  //       title: '公告',
-  //       reopen: false,
-  //       duration: 5000,
-  //       style: `.header{
-  //         color: var(--vp-c-brand-2);
-  //         border-radius: 8px 8px 0 0;
-  //         padding: 8px 8px !important;
-  //         }
-  //         .theme-blog-popover{
-  //         border-radius: 8px !important;
-  //         }
-  //         .footer{
-  //         margin-bottom: 10px;
-  //         }
-  //      }
-  //     `,
-  //       body: [
-  //         { type: 'text', content: '扫描二维码关注微信公众号' },
-  //         {
-  //           type: 'image',
-  //           src: '/img/qrcode.png',
-  //           style: 'margin-bottom: 25px;'
-  //         }
-  //       ],
-  //       footer: [
-  //         {
-  //           type: 'button',
-  //           content: '作者博客',
-  //           link: 'https://zhuns.top/'
-  //         },
-  //         {
-  //           type: 'button',
-  //           content: '云盘',
-  //           link: 'https://cloud.zhuns.top/',
-  //           props: {
-  //             type: 'success'
-  //           }
-  //         },
-  //       ],
-  //     })
-  //   ]
-  // },
+  vite: {
+    plugins: [
+      AnnouncementPlugin({
+        title: '站点公告',
+        reopen: false,
+        duration: 3500,
+        style: `.header{
+          color: var(--vp-c-brand-2);
+          border-radius: 15px 15px 0 0;
+          padding: 15px 15px !important;
+          }
+          .theme-blog-popover{
+          border-radius: 15px !important;
+          }
+          .footer{
+          margin-bottom: 10px;
+          }
+          .announcement-button{
+          border-radius: 10px !important;
+          }
+          .body.content img{
+          height: 150px !important;
+          }
+          .body.content p{
+          font-weight: bold !important;
+          }
+          .title-wrapper .title{
+          font-weight: bold !important;
+          letter-spacing: 3px !important;
+          }
+          .announcement-button{
+          font-weight: bold !important;
+          letter-spacing: 3px !important;
+          }
+       }
+      `,
+        body: [
+          { type: 'text', content: '扫描二维码关注微信公众号' },
+          {
+            type: 'image',
+            src: '/img/qrcode.png',
+            style: 'margin-bottom: 25px;'
+          }
+        ],
+        footer: [
+          {
+            type: 'button',
+            content: '远程协助',
+            link: 'https://win.cooa.top/about/Site#远程协助'
+          },
+          {
+            type: 'button',
+            content: '更新日志',
+            link: 'https://win.cooa.top/about/log',
+            props: {
+              type: 'success'
+            }
+          },
+        ],
+      })
+    ]
+  },
 
   themeConfig: {
     externalLinkIcon: true,
@@ -139,6 +159,10 @@ export default defineConfig({
           svg: '<img src="/icon/wxs.svg" width="65%" color="#808080">'
         },
         link: "https://blog.zhuns.top/wxz/index.html?redirectTo=https://win.cooa.top/",
+      },
+      {
+        icon: 'github',
+        link: "https://github.com/zhunse/Wincooa",
       }
     ]
   }
