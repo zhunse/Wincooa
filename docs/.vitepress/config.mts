@@ -35,9 +35,11 @@ export default defineConfig({
   vite: {
     plugins: [
       AnnouncementPlugin({
-        title: '站点公告',
+        title: '公告',
         reopen: false,
-        duration: 3500,
+        twinkle: true,
+        duration: -1,
+        // duration: 4500,
         style: `.header{
           color: var(--vp-c-brand-2);
           border-radius: 15px 15px 0 0;
