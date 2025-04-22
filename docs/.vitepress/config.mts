@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import timeline from "vitepress-markdown-timeline";
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import sidebar from './config/sidebar'
+
 
 
 export default defineConfig({
@@ -27,6 +29,7 @@ export default defineConfig({
         'data-fancybox': "gallery",
       }),
         md.use(timeline);
+        md.use(tabsMarkdownPlugin);
     },
   },
 

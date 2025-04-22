@@ -49,7 +49,7 @@ aside: false
 
 > **微信添加方法**: 微信搜索公众号 **进函科技社**，在底部菜单栏 **点击-更多服务>添加微信**。
 
-> [点击打开微信公众号二维码](https://blog.zhuns.top/wxz/index.html?redirectTo=https://win.cooa.top/about/Site.html)
+![](/img/vx.png)
 
 ## 问题反馈
 

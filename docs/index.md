@@ -41,6 +41,6 @@ features:
   - icon: <img src="/icon/home/wxs.svg" width="65%">
     title: 关注微信公众号
     details: 
-    link: https://blog.zhuns.top/wxz/index.html?redirectTo=https://win.cooa.top/
+    link: /about/wx
     linkText: 了解更多实用技巧
 ---

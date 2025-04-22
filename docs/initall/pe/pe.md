@@ -18,20 +18,20 @@ PE系统是一个装在U盘或者硬盘里面的一个小小的引导系统,当�
 
 ### 第一步
 前往 [微PE官网 https://www.wepe.com.cn/](https://www.wepe.com.cn/) 下载最新版制作工具
-![](/image/more/pe01.png)
+![](/image/pe/pe01.png)
 如果提示需要捐赠就点击旁边的**先不捐赠**
-![](/image/more/pe02.png)
-![](/image/more/pe03.png)
+![](/image/pe/pe02.png)
+![](/image/pe/pe03.png)
 
 ### 第二步
 将U盘插入电脑，打开下载好的程序，点击右下角的USB图标
-![](/image/more/pe04.png)
+![](/image/pe/pe04.png)
 这里默认就行，**点击立即安装PE到U盘，提示请务必提前备份数据并关闭安全软件**没问题就点击**开始制作**
-![](/image/more/pe05.png)
+![](/image/pe/pe05.png)
 PE系统体积比较小巧，一般情况下一分钟左右就安装完成了
-![](/image/more/pe06.png)
+![](/image/pe/pe06.png)
 安装完成，退出U盘测试一下
-![](/image/more/pe07.png)
+![](/image/pe/pe07.png)
 
 ## 安装完成
 
@@ -63,10 +63,10 @@ PE系统体积比较小巧，一般情况下一分钟左右就安装完成了
 
 > 于大部分电脑的Biso都是英文界面，但还有少部分支持中文语言切换，如果看不懂英文的话可以用翻译软件拍照翻译辅助完成操作 例如：微信-扫一扫-翻译
 
-![](/image/more/pe08.jpg)
-![](/image/more/pe09.jpg)
+![](/image/pe/pe08.jpg)
+![](/image/pe/pe09.jpg)
 进入系统后可以看见系统非常的简洁，内置了许多的系统调试工具
-![](/image/more/pe10.jpg)
+![](/image/pe/pe10.jpg)
 我这里使用的是一个64GB的优盘操作，PE安装完成后还剩下57GB可以当普通U盘使用，当正常插入电脑的时候是不会显示PE系统分区的。
 
 此时我们也可以将我们常用的一些系统镜像（win10 Win11）放在这个U盘里面，当电脑出现无法进入系统的时候就可以直接使用PE系统来重装系统，关于PE系统的详细使用说明可以前往官网了解
