@@ -175,11 +175,11 @@ p.copyright a {
   --vp-c-bg-soft: #1d1d1d;
 }
 
-.vp-doc [class*='language-'] pre{
+.vp-doc [class*='language-'] pre {
   background: #80808025 !important;
 }
 
-p img{
+p img {
   border-radius: 8px;
   margin: 5px 0px 5px 0px;
 }
@@ -216,7 +216,7 @@ p img{
   backdrop-filter: blur(25px) !important;
 }
 
-.VPLink.no-icon.VPFeature{
+.VPLink.no-icon.VPFeature {
   border-radius: 15px !important;
 }
 
@@ -226,28 +226,63 @@ p img{
 .VPSidebarItem.level-2.is-active>.item .link>.text,
 .VPSidebarItem.level-3.is-active>.item .link>.text,
 .VPSidebarItem.level-4.is-active>.item .link>.text,
-.VPSidebarItem.level-5.is-active>.item .link>.text{
+.VPSidebarItem.level-5.is-active>.item .link>.text {
   font-weight: bold !important;
 }
-.link-text-value{
+
+.link-text-value {
   font-weight: bold !important;
 }
 
 
-.VPFooter{
+.VPFooter {
   padding: 15px 25px !important;
 }
 
-.VPHome{
+.VPHome {
   margin-bottom: 50px !important;
 }
 
 strong {
   color: var(--vp-c-brand-1) !important;
 }
-.gang{
+
+.gang {
   color: #808080 !important;
-  cursor: not-allowed; 
+  cursor: not-allowed;
   text-decoration: line-through;
   text-decoration-color: var(--vp-c-brand-1)
+}
+
+
+@font-face {
+  font-family: 'AlimamaFangYuanTiVF-Thin';
+  src: url('/fonts/AlimamaFangYuanTiVF-Thin/AlimamaFangYuanTiVF-Thin.woff2') format('woff2'),
+    url('/fonts/AlimamaFangYuanTiVF-Thin/AlimamaFangYuanTiVF-Thin.woff') format('woff'),
+    url('/fonts/AlimamaFangYuanTiVF-Thin/AlimamaFangYuanTiVF-Thin.ttf') format('ttf');
+  /* font-weight: normal; */
+  font-style: normal;
+}
+
+
+html,
+body {
+  font-family: 'AlimamaFangYuanTiVF-Thin' !important;
+}
+
+.VPButton.brand {
+  background: #524fff !important;
+}
+
+.VPButton.brand:hover {
+  background: #6663ff !important;
+}
+
+.VPButton.medium {
+  border-radius: 15px !important;
+  border: 1px solid #80808025 !important;
+}
+
+.VPTeamMembersItem {
+  border: 1px solid #80808025 !important;
 }

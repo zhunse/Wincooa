@@ -7,7 +7,7 @@ hero:
   text: "电脑优化指南"
   tagline: 本教程更适用于Win11笔记本电脑
   image:
-    src: /img/rocket.png
+    src: /img/rockets.png
     alt: Logo
   actions:
     - theme: brand

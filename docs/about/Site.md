@@ -5,6 +5,19 @@ aside: false
 
 # Wincooa 的由来
 
+>
+
+<style>
+@media (max-width: 767px) {
+    .maps {
+        width: 100%;
+    }
+}
+</style>
+
+<img class="maps" src="/image/about/Concept-map.jpg" width="60%" style="margin: 15px auto; border-radius: 10px;">
+
+
 ## 前言
 
 之前在学校学习的是计算机平面广告设计专业。随着学习需求的增加，班上许多同学都购买了电脑。在父母的帮助下，我也**终于**拥有了人生中的第一台笔记本电脑。
@@ -49,7 +62,10 @@ aside: false
 
 > **微信添加方法**: 微信搜索公众号 **进函科技社**，在底部菜单栏 **点击-更多服务>添加微信**。
 
-![](/img/vx.png)
+<!-- ![](/img/vx.png) -->
+
+<img class="maps" src="/img/vx.png" width="60%" style="margin: 5px auto; border-radius: 10px;">
+
 
 ## 问题反馈
 
