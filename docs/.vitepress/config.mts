@@ -15,6 +15,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#6b68ff' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-erygvUFJr0' }],
     [
       "link",
       { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },

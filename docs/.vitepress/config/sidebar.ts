@@ -32,8 +32,8 @@ export default [
     text: 'PE系统玩法',
     items: [
       { text: '制作PE系统', link: '/initall/pe/pe', },
-      { text: '<span class="gang" title="即将上线">重装系统</span>', link: '#' },
-      // { text: '重装系统', link: '/initall/pe/Reload' },
+      // { text: '<span class="gang" title="即将上线">重装系统</span>', link: '#' },
+      { text: '重装系统', link: '/initall/pe/Reload' },
       { text: '重置锁屏密码', link: '/initall/pe/reset' },
     ],
   },
