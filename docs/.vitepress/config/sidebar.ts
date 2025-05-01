@@ -40,7 +40,8 @@ export default [
   {
     text: '疑难杂症',
     items: [
-      { text: '待开发区', link: '/initall/Difficult/go' },
+      { text: '分类介绍', link: '/initall/Difficult/go' },
+      { text: '疑难解答', link: '/initall/Difficult/answer' },
     ],
   },
   {
