@@ -12,9 +12,10 @@ import {
 
 const members = [
   {
-    avatar: '/image/avatar/Mr. Bizarre.jpg',
+    // avatar: '/image/avatar/Mr. Bizarre.jpg',
+    avatar: 'https://q.qlogo.cn/g?b=qq&nk=2541704311&s=640',
     name: 'Mr. Bizarre',
-    title: '管理员',
+    title: '管理员/站长',
     links: [
       {
         icon: {

@@ -44,8 +44,8 @@ aside: false
 
 > **本站搭建服务商**:
 
-* 新方案 GitHub Actions - VitePress
-* 旧方案 阿里云云服务器ECS - 宝塔面板 - VitePress
+> * 新方案 GitHub Actions - VitePress
+> * 旧方案 阿里云云服务器ECS - 宝塔面板 - VitePress
 
 ## 友情链接
 <Linkcard url="https://www.aliyun.com/" title="阿里云云服务器ECS" description="提供可靠的服务器解决方案，确保您的网站和应用始终稳定运行，助您轻松应对各种流量需求。" logo="/image/about/al.png"/>
@@ -55,6 +55,8 @@ aside: false
 <Linkcard url="https://vitepress.dev/zh/" title="VitePress" description="大专注于内容创作，提供简洁高效的网站构建方式，帮助您快速部署个人博客、项目展示或企业官网。" logo="/image/about/vp.png"/>
 
 <Linkcard url="https://github.com/" title="GitHub Actions" description="通过自定义工作流程，实现代码的自动构建、测试、部署等任务，提高开发效率。" logo="/image/about/gt.png"/>
+
+<Linkcard url="https://www.upyun.com/" title="又拍云CDN加速" description="一个综合性的内容分发网络服务，支持网站加速、文件存储与分发，具备高可靠性和全球覆盖能力。" logo="/image/about/ypy.png"/>
 
 ## 远程协助
 
