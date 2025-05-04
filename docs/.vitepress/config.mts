@@ -21,7 +21,15 @@ export default defineConfig({
       { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
     ],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
-
+    ["script",
+      {},
+      `var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?196a41df309877885c3c15b0013c7351";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);})();`
+    ],
   ],
   markdown: {
     config: (md) => {
@@ -30,7 +38,7 @@ export default defineConfig({
         'data-fancybox': "gallery",
       }),
         md.use(timeline);
-        md.use(tabsMarkdownPlugin);
+      md.use(tabsMarkdownPlugin);
     },
   },
 
