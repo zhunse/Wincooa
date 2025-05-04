@@ -294,7 +294,7 @@ body {
   border: 2px solid #0069fd !important;
 }
 
-.VPButton.attach {
+/* .VPButton.attach {
   display: none;
 }
 
@@ -303,7 +303,7 @@ body {
     display: flex;
     align-items: center;
   }
-}
+} */
 
 .VPTeamMembersItem {
   border: 1px solid #80808025 !important;
