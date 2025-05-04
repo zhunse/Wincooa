@@ -271,16 +271,38 @@ body {
 }
 
 .VPButton.brand {
-  background: #524fff !important;
+  background: #683eff !important;
 }
 
 .VPButton.brand:hover {
-  background: #6663ff !important;
+  background: #4a18ff !important;
 }
 
 .VPButton.medium {
   border-radius: 15px !important;
-  border: 1px solid #80808025 !important;
+  border: 2px solid #80808025 !important;
+}
+
+.VPButton.attach {
+  color: #3f8efd;
+  border: 2px solid #3f8efd !important;
+  /* background: #3f8efd !important; */
+}
+
+.VPButton.attach:hover {
+  color: #0069fd;
+  border: 2px solid #0069fd !important;
+}
+
+.VPButton.attach {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .VPButton.attach {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .VPTeamMembersItem {

@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 快速开始
       link: /initall/tutorial/Matching
+    - theme: attach
+      text: 通过手机访问
+      link: /about/mobile
     - theme: alt
       text: 关于
       link: /about/Site

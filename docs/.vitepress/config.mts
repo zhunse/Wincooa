@@ -21,6 +21,7 @@ export default defineConfig({
       { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
     ],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
+    // 百度统计代码
     ["script",
       {},
       `var _hmt = _hmt || [];
@@ -152,11 +153,11 @@ export default defineConfig({
     sidebar,
     footer: {
       message: `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
-        <img src="./img/icp.png" alt="ICP备案号">陕ICP备2023007133号-2
+        <img src="../img/icp.png" alt="ICP备案号">陕ICP备2023007133号-2
     </a>
       </br>
     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51011502000812" target="_blank" rel="noreferrer">
-        <img src="./img/anei.png" alt="川公网安备">川公网安备51011502000812号
+        <img src="../img/anei.png" alt="川公网安备">川公网安备51011502000812号
     </a>`,
       copyright: `COPYRIGHT © 2024-${new Date().getFullYear()} & <a href="https://zhuns.top/">进函科技社</a>`
     },

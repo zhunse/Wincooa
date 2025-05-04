@@ -64,11 +64,9 @@ aside: false
 
 > **微信添加方法**: 微信搜索公众号 **进函科技社**，在底部菜单栏 **点击-更多服务>添加微信**。
 
-<!-- ![](/img/vx.png) -->
-
-<img class="maps" src="/img/vx.png" width="60%" style="margin: 5px auto; border-radius: 10px;">
+<img class="maps" src="/img/vx.png" data-fancybox="gallery" width="60%" style="margin: 5px auto; border-radius: 10px;">
 
 
 ## 问题反馈
 
-本网站目前仍在开发中，如果您有任何建议或意见，欢迎随时与我联系。我会不断优化网站，您可以通过 [提交您的反馈问卷](https://docs.qq.com/form/page/DZHBpQ3RGZ0pwQ2RK)或者使用微信公众号直接联系我们[打开微信公众号二维码](https://blog.zhuns.top/wxz/index.html?redirectTo=https://win.cooa.top/about/Site.html)。
+本网站目前仍在开发中，如果您有任何建议或意见，欢迎随时与我联系。我会不断优化网站，您可以通过 [提交您的反馈问卷](https://docs.qq.com/form/page/DZHBpQ3RGZ0pwQ2RK)或者使用微信公众号直接联系我们[打开微信公众号二维码](./wx.md)。

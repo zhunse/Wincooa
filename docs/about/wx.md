@@ -1,13 +1,14 @@
 ---
 title: 关注微信
 aside: false
+sidebar: false
 ---
 
 # 关注微信公众号
 
 <div class="qr-container">
   <div class="qr-code-box">
-    <img src="/image/about/qrcode.png" alt="微信公众号二维码" class="qr-code-image">
+    <img src="/image/about/qrcode.png" alt="微信公众号二维码" data-fancybox="gallery" class="qr-code-image">
     <p class="qr-code-text">扫描二维码关注微信公众号</p>
     <div class="qr-info-box">
       <div class="qr-avatar">
@@ -27,6 +28,21 @@ aside: false
 </div>
 
 <style>
+  /* 隐藏底部 Footer */
+  .VPDocFooter{
+    display: none;
+  }
+
+  .VPDoc{
+    padding: 32px 24px 10px !important;
+  }
+
+  @media (min-width: 960px) {
+    .content {
+        padding: 0 32px 50px !important;
+    }
+  }
+
   .qr-container {
     display: flex;
     justify-content: center;
@@ -48,6 +64,7 @@ aside: false
   .qr-code-image {
     width: 100%;
     border-radius: 10px;
+    border: 1px solid #80808025;
   }
 
   .qr-code-text {
@@ -59,7 +76,7 @@ aside: false
 
   .qr-info-box {
     width: 100%;
-    background: #80808025;
+    background: #80808020;
     padding: 15px;
     border-radius: 15px;
     display: flex;
