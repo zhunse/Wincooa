@@ -33,7 +33,7 @@ sidebar: false
     display: none;
   }
 
-  .VPDoc{
+  /* .VPDoc{
     padding: 32px 24px 10px !important;
   }
 
@@ -41,7 +41,7 @@ sidebar: false
     .content {
         padding: 0 32px 50px !important;
     }
-  }
+  } */
 
   .qr-container {
     display: flex;
