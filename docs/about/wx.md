@@ -33,6 +33,8 @@ sidebar: false
     display: none;
   }
 
+  /* 用于优化微信二维码页面，现在全局样式出现问题，暂停使用，给予整改！ */
+  
   /* .VPDoc{
     padding: 32px 24px 10px !important;
   }
