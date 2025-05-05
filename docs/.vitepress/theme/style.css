@@ -204,21 +204,23 @@ p img {
 } */
 
 
-.VPLink.no-icon.VPFeature {
+.VPLink.no-icon.VPFeature, .icon {
   border: 1px solid #80808025 !important;
   background: #80808005 !important;
   backdrop-filter: blur(25px) !important;
 }
 
-.icon {
-  border: 1.5px solid #80808025 !important;
-  background: #80808005 !important;
+.VPLink.no-icon.VPFeature:hover {
+  border: 1px solid #80808015 !important;
+  background: #80808008 !important;
   backdrop-filter: blur(25px) !important;
 }
+
 
 .VPLink.no-icon.VPFeature {
   border-radius: 15px !important;
 }
+
 
 
 .VPSidebarItem.level-0.is-active>.item .link>.text,
