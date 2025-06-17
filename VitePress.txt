@@ -20,5 +20,7 @@ git commit -m “注释”
 push命令
 git push -u origin main
 
+强制推送
+git push --force origin main
 
 

@@ -211,8 +211,8 @@ p img {
 }
 
 .VPLink.no-icon.VPFeature:hover {
-  border: 1px solid #80808015 !important;
-  background: #80808008 !important;
+  border: 1px solid #80808020 !important;
+  background: #80808010 !important;
   backdrop-filter: blur(25px) !important;
 }
 
