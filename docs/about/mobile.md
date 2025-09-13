@@ -27,7 +27,7 @@ sidebar: false
 
 **方法二：** 点击下方链接后方的 **复制按钮** 粘贴到电脑微信发送到手机访问
 
-```LINK
+```txt
 https://win.cooa.top/
 ```
 

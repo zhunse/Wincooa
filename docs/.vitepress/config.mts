@@ -125,7 +125,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '关于', link: '/about/Site' },
-      { text: "云盘", link: 'https://cloud.zhuns.top/' },
+      { text: "NAS", link: 'https://www.ug.link/' },
       { text: '博客', link: 'https://www.zhuns.top/' }
     ],
 

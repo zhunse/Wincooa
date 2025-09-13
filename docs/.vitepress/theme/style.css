@@ -310,3 +310,8 @@ body {
 .VPTeamMembersItem {
   border: 1px solid #80808025 !important;
 }
+
+
+.VPLink::after{
+  display: none !important;
+}
