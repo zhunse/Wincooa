@@ -22,17 +22,28 @@ jobs:
       - name: Build VitePress
         run: npm run docs:build
 
-      - name: Deploy to Aliyun via SSH
-        uses: appleboy/scp-action@master
+      # 步骤4：打包dist为zip（避免scp传输问题）
+      - name: Zip dist folder
+        run: |
+          cd docs/.vitepress
+          zip -r dist.zip dist/
+
+      # 步骤5：用SSH命令上传+解压（核心！绕开scp-action）
+      - name: Deploy via SSH command
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22
-          source: "docs/.vitepress/dist/"
-          target: "/www/wwwroot/win.cooa.top/"
-          script_before: |
+          debug: true
+          # 执行的命令：创建目录 → 上传zip → 解压 → 删除zip
+          script: |
             mkdir -p /www/wwwroot/win.cooa.top/dist
             chmod 777 -R /www/wwwroot/win.cooa.top/dist
-          rm: true
-          debug: true
+            # 上传zip文件
+            scp /home/runner/work/Wincooa/Wincooa/docs/.vitepress/dist.zip root@${{ secrets.SSH_HOST }}:/www/wwwroot/win.cooa.top/
+            # 解压zip
+            unzip -o /www/wwwroot/win.cooa.top/dist.zip -d /www/wwwroot/win.cooa.top/
+            # 删除zip
+            rm -f /www/wwwroot/win.cooa.top/dist.zip
